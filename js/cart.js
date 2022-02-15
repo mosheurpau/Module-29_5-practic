@@ -59,3 +59,7 @@ document.getElementById('case-plus').addEventListener('click', function () {
 document.getElementById('case-minus').addEventListener('click', function () {
     numberOfProduct('case', 59, false);
 });
+document.getElementById('check-btn').addEventListener('click', function () {
+    alert('Congratulations');
+});
+
